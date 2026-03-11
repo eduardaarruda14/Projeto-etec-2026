@@ -1,1 +1,0 @@
-# Projeto-etec-2026

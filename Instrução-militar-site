@@ -1,0 +1,110 @@
+# Projeto-etec-2026
+Site educativo sobre instrução militar, marcha e toques de corneta.
+O propósito deste site é ajudar os alunos a desenvolverem melhor a coordenação motora na marcha militar. Além disso, busca ensinar os comandos militares desde o nível básico ou ajudar no aprimoramento dos conhecimentos já adquiridos. Dessa forma, o aluno poderá melhorar sua postura, disciplina e organização dentro da escola, compreendendo de maneira mais clara a proposta e os valores de uma escola militar.
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Instrução Militar</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Instrução Militar Básica</h1>
+<p>Aprenda sobre marcha e toques de corneta</p>
+</header>
+
+<nav>
+<a href="#marcha">Como Marchar</a>
+<a href="#corneta">Toques de Corneta</a>
+</nav>
+
+<section id="marcha">
+<h2>Como Marchar</h2>
+<p>A marcha é um movimento organizado usado em formações militares.</p>
+
+<ul>
+<li>Corpo ereto</li>
+<li>Olhar para frente</li>
+<li>Passos firmes e sincronizados</li>
+<li>Começar sempre com o pé esquerdo</li>
+</ul>
+
+<p>O ritmo da marcha normalmente é de aproximadamente 116 passos por minuto.</p>
+</section>
+
+<section id="corneta">
+<h2>Toques de Corneta</h2>
+
+<h3>Alvorada</h3>
+<p>Indica o início do dia e o momento de acordar.</p>
+
+<h3>Formatura</h3>
+<p>Chama os militares para formação.</p>
+
+<h3>Rancho</h3>
+<p>Indica o horário das refeições.</p>
+
+<h3>Silêncio</h3>
+<p>Sinaliza o momento de descanso noturno.</p>
+
+</section>
+
+<footer>
+<p>Projeto escolar - Instrução Militar</p>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#2e3b2f;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+nav{
+background:#3f5a3f;
+text-align:center;
+padding:10px;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:30px;
+background:white;
+margin:20px;
+border-radius:10px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#2e3b2f;
+color:white;
+}
